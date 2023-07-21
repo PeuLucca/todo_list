@@ -1,0 +1,64 @@
+.app {
+  text-align: center;
+}
+
+.titulo {
+  font-family: arial;
+  font-size: 22px;
+}
+
+.styled-button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.681);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.styled-button:hover {
+  background-color: rgba(0, 100, 0, 0.779);
+}
+
+.styled-button:active {
+  background-color: green;
+}
+
+.styled-input {
+  width: 95%;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.styled-input:focus {
+  border-color: #7d7d7d;
+  box-shadow: 0 0 5px #4b4b4b;
+}
+
+.styled-input:hover {
+  border-color: #999;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.areas {
+  background-color: white;
+  text-align: start;
+  border: 2px solid rgb(84, 84, 84);
+  padding: 20px;
+  margin-top: 5px;
+}
+
+ul li {
+  list-style: none;
+}
